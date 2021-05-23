@@ -49,6 +49,7 @@ body {
   color: #ffffff;
 }
 
+.portfolio.link,
 .section-title {
   color: var(--title-tex-color);
 }
@@ -66,6 +67,16 @@ body {
 .button.secondary {
   color: var(--accent-color);
   background-color: var(--secondary-bg-color);
+}
+
+.portfolio-list .button:hover,
+.portfolio-list .button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.address-list {
+  font-style: normal;
 }
 
 .f-adress {
