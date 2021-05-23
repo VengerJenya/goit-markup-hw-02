@@ -1,3 +1,65 @@
+:root {
+  --primary-text-color: #757575;
+  --title-tex-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+}
+
 body {
-  background-color: chocolate;
+  color: var(--primary-text color);
+  background-color: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-tex-color);
+}
+
+.site-addres a {
+  color: var(--primary-text color) 5;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-addres a:hover,
+.site-addres a:focus {
+  color: var(--accent-color);
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.section-title {
+  color: var(--title-tex-color);
+}
+
+.button {
+  color: var(--title-tex-color);
+  background-color: var(--primary-bg-color);
+}
+
+.button.primary {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--secondary-bg-color);
 }
