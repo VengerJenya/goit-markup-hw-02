@@ -9,6 +9,7 @@
 body {
   color: var(--primary-text color);
   background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
 }
 
 .list {
@@ -17,10 +18,12 @@ body {
 
 .logo {
   color: #000000;
+  font-family: "Raleway", sans-serif;
 }
 
 .web {
   color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
 }
 
 .site-nav .link {
