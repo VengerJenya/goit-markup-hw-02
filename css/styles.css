@@ -36,6 +36,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .site-addres a:hover,
 .site-addres a:focus {
   color: var(--accent-color);
@@ -62,4 +66,8 @@ body {
 .button.secondary {
   color: var(--accent-color);
   background-color: var(--secondary-bg-color);
+}
+
+.f-adress {
+  color: #ffffff;
 }
