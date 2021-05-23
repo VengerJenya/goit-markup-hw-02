@@ -7,7 +7,7 @@
 }
 
 body {
-  color: var(--primary-text color);
+  color: var(--primary-text-color);
   background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .site-addres a {
-  color: var(--primary-text color) 5;
+  color: var(--primary-text color);
 }
 
 .site-nav .link:hover,
