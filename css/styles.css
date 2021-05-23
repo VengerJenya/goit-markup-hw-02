@@ -24,6 +24,10 @@ body {
 .web {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .site-nav .link {
@@ -60,6 +64,7 @@ body {
 .button {
   color: var(--title-tex-color);
   background-color: var(--primary-bg-color);
+  font-family: inherit;
 }
 
 .button.primary {
